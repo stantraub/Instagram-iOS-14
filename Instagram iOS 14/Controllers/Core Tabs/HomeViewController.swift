@@ -11,7 +11,13 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        do {
+//            try FirebaseAuth.Auth.auth().signOut()
+//        }
+//        catch {
+//            print("Failed to sign out.")
+//        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
